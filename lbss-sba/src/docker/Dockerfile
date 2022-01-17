@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:slim
+FROM openjdk:11.0.13-jdk-slim-bullseye
 
 COPY lbss-sba-*.jar /lbss-sba.jar
 
